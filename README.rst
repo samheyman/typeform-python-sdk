@@ -1,11 +1,13 @@
 
-# Typeform Python SDK
+Typeform Python SDK
+===================
 
 A Python library for [TypeForm's new APIs](https://developer.typeform.com/get-started/) (Create and Responses).
 
 Currently only access via personal token is supported. OAuth2 support will be added in a later version.
 
-## Installation
+Installation
+------------
 
 This SDK requires either Python 2.7+ or 3.4+. To install you can use pip as follows:
 
@@ -16,7 +18,8 @@ This SDK requires either Python 2.7+ or 3.4+. To install you can use pip as foll
 Make sure to add it to your `requirements.txt` file. 
 
 
-## Getting Started
+Getting Started
+---------------
 
 .. code:: py
 
@@ -56,7 +59,8 @@ Make sure to add it to your `requirements.txt` file.
                     else:
                         print("{}".format(answer['number']))
 
-## List of Supported Endpoints
+List of Supported Endpoints
+---------------------------
 
 .. code:: py
 
@@ -73,6 +77,7 @@ typeform.form('uQaHwT').delete()
 typeform.form('uQaHwT').responses.get()
 
 
-## Author
+Author
+------
 
 [Sam Heyman](https://samheyman.com)
