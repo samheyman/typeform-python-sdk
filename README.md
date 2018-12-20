@@ -1,1 +1,0 @@
-# typeform_python_sdk
