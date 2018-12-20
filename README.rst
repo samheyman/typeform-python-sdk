@@ -6,6 +6,13 @@ A Python library for `TypeForm's new APIs <https://developer.typeform.com/get-st
 
 Currently only access via personal token is supported. OAuth2 support will be added in a later version.
 
+Prerequisites
+-------------
+
+You will need to open a Typeform account and create a form. Once you have done this make a note of:
+- a personal token (accessible from My account)
+- a form ID (from the form url)
+
 Installation
 ------------
 
