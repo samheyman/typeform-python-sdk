@@ -2,7 +2,7 @@
 Typeform Python SDK
 ===================
 
-A Python library for [TypeForm's new APIs](https://developer.typeform.com/get-started/) (Create and Responses).
+A Python library for `TypeForm's new APIs <https://developer.typeform.com/get-started/>` (Create and Responses).
 
 Currently only access via personal token is supported. OAuth2 support will be added in a later version.
 
@@ -64,20 +64,20 @@ List of Supported Endpoints
 
 .. code:: py
 
-# Retrieve forms
+* Retrieve forms
 typeform.forms.get()
 
-# Retrieve specific form
+* Retrieve specific form
 typeform.form('uQaHwT').get()
 
-# Delete specific form
+* Delete specific form
 typeform.form('uQaHwT').delete()
 
-# Get responses
+* Get responses
 typeform.form('uQaHwT').responses.get()
 
 
 Author
 ------
 
-[Sam Heyman](https://samheyman.com)
+`Sam Heyman <https://samheyman.com>`
