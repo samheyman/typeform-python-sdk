@@ -10,7 +10,9 @@ Prerequisites
 -------------
 
 You will need to open a Typeform account and create a form. Once you have done this make a note of:
+
 - a personal token (accessible from My account)
+
 - a form ID (from the form url)
 
 Installation
