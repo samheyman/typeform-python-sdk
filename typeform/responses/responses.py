@@ -1,7 +1,7 @@
 # from .typeform import Client
 # from .errors import NotFoundException
 # from .form_response import FormResponses
-from .form_questions import FormQuestions
+from typeform.create.form_questions import FormQuestions
 from typeform.create.form_questions import FormQuestions
 from typeform.utils.client import Client
 

@@ -4,7 +4,7 @@
 from .form_questions import FormQuestions
 from typeform.create.form_questions import FormQuestions
 from typeform.utils.client import Client
-from .responses import Responses
+from typeform.responses.responses import Responses
 
 class Form(object):
     """TypeForm Form API client"""
