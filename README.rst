@@ -26,6 +26,12 @@ This SDK requires either Python 2.7+ or 3.4+. To install you can use pip as foll
 
 Make sure to add it to your `requirements.txt` file. 
 
+If you want to run the SDK locally, download the code to your machine and run:
+
+.. code:: sh
+
+    pip install -e .
+
 
 Getting Started
 ---------------
@@ -49,7 +55,8 @@ Getting Started
 
     # Delete a specific form
     typeform.form('<your_form_id>').delete()
-    Fetch all responses for a given form
+    
+    # Fetch all responses for a given form
     my_responses = typeform.form('afaj').responses.get()
 
     # Print the number of responses to the form
